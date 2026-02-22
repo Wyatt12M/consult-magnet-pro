@@ -22,9 +22,9 @@
     --secondary-foreground: 220 30% 12%;
 
     --muted: 214 20% 95%;
-    --muted-foreground: 220 10% 46%;
+    --muted-foreground: 220 10% 30%;
 
-    --accent: 210 100% 52%;
+    --accent: 160 84% 39%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -39,8 +39,9 @@
     --navy: 220 60% 18%;
     --navy-light: 220 40% 28%;
     --navy-dark: 220 70% 10%;
-    --blue-accent: 210 100% 52%;
-    --blue-accent-light: 210 100% 96%;
+    --emerald: 160 84% 39%;
+    --emerald-light: 160 40% 96%;
+    --charcoal: 220 10% 30%;
     --warm-gray: 220 10% 97%;
 
     --font-display: 'Plus Jakarta Sans', sans-serif;
