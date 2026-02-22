@@ -56,10 +56,11 @@ export default {
           light: "hsl(var(--navy-light))",
           dark: "hsl(var(--navy-dark))",
         },
-        "blue-accent": {
-          DEFAULT: "hsl(var(--blue-accent))",
-          light: "hsl(var(--blue-accent-light))",
+        emerald: {
+          DEFAULT: "hsl(var(--emerald))",
+          light: "hsl(var(--emerald-light))",
         },
+        charcoal: "hsl(var(--charcoal))",
         "warm-gray": "hsl(var(--warm-gray))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

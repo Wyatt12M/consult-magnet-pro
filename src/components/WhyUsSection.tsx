@@ -37,7 +37,7 @@ const WhyUsSection = () => {
               key={i}
               className="bg-card rounded-xl p-8 border border-border"
             >
-              <div className="w-12 h-12 rounded-lg bg-blue-accent-light flex items-center justify-center mb-5">
+              <div className="w-12 h-12 rounded-lg bg-emerald-light flex items-center justify-center mb-5">
                 <item.icon className="text-accent" size={22} />
               </div>
               <h3 className="font-display font-600 text-lg text-foreground mb-2">
