@@ -21,17 +21,17 @@ const HeroSection = () => {
             Patient Acquisition for Men's Health Clinics
           </p>
           <h1 className="font-display font-800 text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-primary-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Fill Empty Appointment Slots with 20–40 New Consult Requests Every Month
+            Keep Your Men's Health Clinic Schedule Full with 20–40 New Consult Requests Every Month
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/75 mb-10 max-w-xl leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            We help independent TRT, weight loss, and hormone optimization clinics generate a predictable flow of qualified patient inquiries — without relying on referrals.
+            We specialize in helping independent TRT, weight loss, and hormone optimization clinics attract qualified patients consistently — not just when referrals slow down.
           </p>
           <div className="animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <a
               href="#book"
               className="inline-flex items-center gap-2 rounded-lg bg-accent text-accent-foreground px-8 py-4 text-base font-semibold transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/25"
             >
-              Book a Growth Call
+              Book a 15-Minute Growth Call
               <ArrowRight size={18} />
             </a>
           </div>
