@@ -9,13 +9,13 @@ const CTASection = () => {
             Ready to Fill Your Schedule?
           </h2>
           <p className="text-primary-foreground/70 text-lg mb-10 max-w-lg mx-auto">
-            Book a free 15-minute discovery call. We'll look at your current patient flow and show you exactly how we'd generate 20–40 new consult requests per month.
+            Apply for a free growth consultation. We'll analyze your current patient acquisition and show you exactly how we'd generate 20–40 new consult requests per month.
           </p>
           <a
             href="#"
             className="inline-flex items-center gap-2 rounded-lg bg-accent text-accent-foreground px-8 py-4 text-base font-semibold transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/25 mb-8"
           >
-            Book Your 15-Minute Growth Call
+            Apply for a Growth Consultation
             <ArrowRight size={18} />
           </a>
 
