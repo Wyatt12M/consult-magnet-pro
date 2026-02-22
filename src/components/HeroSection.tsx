@@ -21,7 +21,7 @@ const HeroSection = () => {
             Predictable Consultations for Men's Health Clinics
           </p>
           <h1 className="font-display font-800 text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-primary-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            We Design and Manage Consultation Acquisition Systems That Keep Your Schedule Full
+            Turn Your Men's Health Clinic Into a Consultation Machine
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/75 mb-10 max-w-xl leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Qualified TRT and weight loss patients — month after month. No referral dependency. No inconsistent pipeline.
