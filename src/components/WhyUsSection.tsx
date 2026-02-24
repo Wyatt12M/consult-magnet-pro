@@ -3,18 +3,18 @@ import { HeartPulse, DollarSign, ShieldCheck } from "lucide-react";
 const reasons = [
   {
     icon: HeartPulse,
-    title: "We Understand Men's Health LTV",
-    description: "TRT and weight loss patients have high lifetime value. We build campaigns that attract the right patients who stay and pay.",
+    title: "We Understand Lifetime Value",
+    description: "TRT and medical weight loss patients represent recurring revenue. Our campaigns are built around that economic reality.",
   },
   {
     icon: DollarSign,
-    title: "We Focus on Cash-Pay Growth",
-    description: "No insurance headaches. We specialize in helping clinics grow their cash-pay consult volume — the revenue that matters most.",
+    title: "We Prioritize Cash-Pay Growth",
+    description: "Insurance introduces complexity. We focus on scalable, margin-focused patient acquisition.",
   },
   {
     icon: ShieldCheck,
-    title: "We Don't Work with Everyone",
-    description: "We only partner with men's health clinics. That focus means better results, faster ramp-up, and campaigns built on real data from your niche.",
+    title: "We Scale Responsibly",
+    description: "As your capacity fills, we adjust pacing to maintain quality and conversion efficiency.",
   },
 ];
 
@@ -22,14 +22,17 @@ const WhyUsSection = () => {
   return (
     <section id="why" className="py-20 md:py-28 bg-warm-gray">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="max-w-2xl mx-auto text-center mb-14">
+        <div className="max-w-2xl mx-auto text-center mb-6">
           <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3">
-            Why Us
+            Selective Partnerships Only
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl text-foreground leading-tight">
-            Built Exclusively for Men's Health Clinics
+            We do not work across industries.
           </h2>
         </div>
+        <p className="text-center text-muted-foreground text-base mb-14 max-w-lg mx-auto">
+          We do not manage general marketing campaigns. We partner exclusively with independent men's health clinics.
+        </p>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {reasons.map((item, i) => (

@@ -4,20 +4,20 @@ const steps = [
   {
     icon: Search,
     step: "01",
-    title: "Attract High-Intent Patients",
-    description: "We put your clinic in front of men actively searching for TRT, weight loss, and hormone optimization — right when they're ready to act.",
+    title: "Strategic Patient Targeting",
+    description: "We position your clinic in front of men actively searching for TRT and medical weight loss services at the moment of intent.",
   },
   {
     icon: Filter,
     step: "02",
-    title: "Capture & Qualify Requests",
-    description: "Interested patients fill out a qualification form so your team only speaks with people who are a real fit for your services.",
+    title: "Qualification & Filtering",
+    description: "Prospective patients complete structured intake forms designed to eliminate low-quality inquiries and protect your team's time.",
   },
   {
     icon: CalendarPlus,
     step: "03",
-    title: "Fill Your Schedule",
-    description: "Qualified consult requests flow directly into your calendar. Your team focuses on what they do best — patient care.",
+    title: "Consultation Flow Management",
+    description: "Qualified requests are delivered directly into your booking pipeline, creating consistent consult volume your team can manage.",
   },
 ];
 
@@ -27,10 +27,10 @@ const HowItWorksSection = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-2xl mx-auto text-center mb-14">
           <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3">
-            Simple Process
+            Our Framework
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl text-foreground leading-tight">
-            How It Works
+            Our Consultation Acquisition Framework
           </h2>
         </div>
 
@@ -53,6 +53,15 @@ const HowItWorksSection = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-14 border-t border-border pt-8 max-w-md mx-auto">
+          <p className="text-muted-foreground text-base">
+            This is not advertising.
+          </p>
+          <p className="text-foreground font-display font-600 text-base">
+            It is infrastructure.
+          </p>
         </div>
       </div>
     </section>
