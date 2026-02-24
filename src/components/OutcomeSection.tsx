@@ -16,7 +16,7 @@ const outcomes = [
   {
     icon: Target,
     metric: "Predictable",
-    label: "Revenue You Can Forecast and Scale",
+    label: "Revenue You Can Forecast, Staff For, and Scale",
     description: "Growth that supports hiring, expansion, and long-term planning.",
   },
 ];
