@@ -21,7 +21,7 @@ const HeroSection = () => {
             Predictable Consultation Volume for Independent Men's Health Clinics
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/75 mb-10 max-w-xl leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            We design and manage patient acquisition systems that consistently generate qualified TRT and medical weight loss consultations — without relying on referrals or inconsistent marketing efforts.
+            We design and manage patient acquisition systems that generate qualified TRT and medical weight loss consultations — without referral dependency or inconsistent marketing.
           </p>
           <div className="animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <a
