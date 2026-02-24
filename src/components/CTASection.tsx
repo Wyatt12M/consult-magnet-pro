@@ -15,7 +15,7 @@ const CTASection = () => {
             href="#"
             className="inline-flex items-center gap-2 rounded-lg bg-accent text-accent-foreground px-8 py-4 text-base font-semibold transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/25 mb-8"
           >
-            Apply for a Growth Consultation
+            Apply for a Private Growth Consultation
             <ArrowRight size={18} />
           </a>
 
