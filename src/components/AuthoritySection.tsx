@@ -1,10 +1,10 @@
 import { TrendingUp, RefreshCw, CalendarClock, AlertTriangle } from "lucide-react";
 
 const points = [
-  { icon: TrendingUp, text: "High lifetime value per patient" },
-  { icon: RefreshCw, text: "Recurring program revenue" },
-  { icon: CalendarClock, text: "Capacity-sensitive scheduling" },
-  { icon: AlertTriangle, text: "The risk of unpredictable patient flow" },
+  { icon: TrendingUp, text: "High lifetime value per TRT patient" },
+  { icon: RefreshCw, text: "Recurring program-based revenue" },
+  { icon: CalendarClock, text: "Capacity constraints" },
+  { icon: AlertTriangle, text: "Revenue volatility from referral-only pipelines" },
 ];
 
 const AuthoritySection = () => {
@@ -16,14 +16,17 @@ const AuthoritySection = () => {
             Exclusive Focus
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl text-foreground leading-tight mb-6">
-            Built for Cash-Pay Men's Health Clinics
+            Built Around Your Economics — Not Vanity Metrics
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-            Northarion Partners works exclusively with independent men's health clinics operating cash-pay TRT, weight loss, and hormone optimization programs.
+          <p className="text-muted-foreground text-lg leading-relaxed mb-2">
+            Most agencies optimize for traffic.
+          </p>
+          <p className="text-foreground font-display font-600 text-lg leading-relaxed mb-10">
+            We optimize for consultation revenue.
           </p>
 
           <p className="font-display font-600 text-foreground text-lg mb-6">
-            We understand your economics:
+            We understand:
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 mb-12">
@@ -41,11 +44,8 @@ const AuthoritySection = () => {
           </div>
 
           <div className="border-l-4 border-accent pl-6">
-            <p className="text-muted-foreground text-base leading-relaxed">
-              Our focus isn't traffic. It isn't vanity metrics.
-            </p>
-            <p className="text-foreground font-display font-600 text-base mt-1">
-              It's booked consultations that convert into long-term recurring revenue.
+            <p className="text-foreground font-display font-600 text-base">
+              Our systems are built around long-term recurring revenue — not short-term spikes.
             </p>
           </div>
         </div>

@@ -18,10 +18,10 @@ const HeroSection = () => {
       <div className="container relative z-10 mx-auto px-4 md:px-8 py-20 md:py-32">
         <div className="max-w-2xl">
           <h1 className="font-display font-800 text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-primary-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Predictable Consultation Volume for Independent Men's Health Clinics
+            Predictable Consultation Volume for Established Men's Health Clinics
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/75 mb-10 max-w-xl leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            We design and manage patient acquisition systems that generate qualified TRT and medical weight loss consultations — without referral dependency or inconsistent marketing.
+            We design and manage structured patient acquisition systems that generate qualified TRT and medical weight loss consultations — without referral dependency or inconsistent marketing cycles.
           </p>
           <div className="animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <a
