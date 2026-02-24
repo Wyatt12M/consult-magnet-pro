@@ -60,7 +60,7 @@ const HowItWorksSection = () => {
             This is not advertising.
           </p>
           <p className="text-foreground font-display font-600 text-base">
-            It is infrastructure.
+            It is revenue infrastructure.
           </p>
         </div>
       </div>
