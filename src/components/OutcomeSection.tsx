@@ -5,19 +5,19 @@ const outcomes = [
     icon: TrendingUp,
     metric: "20–40",
     label: "Qualified Consult Requests Per Month",
-    description: "Not general inquiries — structured consultation intent.",
+    description: "Built on active search intent and controlled qualification.",
   },
   {
     icon: CalendarCheck,
-    metric: "Fuller",
-    label: "Schedules with Pre-Qualified Patients",
-    description: "Your team speaks only with serious candidates.",
+    metric: "Stable",
+    label: "Forecastable Revenue",
+    description: "Consultation volume you can plan staffing, expansion, and reinvestment around.",
   },
   {
     icon: Target,
-    metric: "Predictable",
-    label: "Revenue You Can Forecast, Staff For, and Scale",
-    description: "Growth that supports hiring, expansion, and long-term planning.",
+    metric: "Controlled",
+    label: "Scaling",
+    description: "As capacity increases, acquisition scales with it.",
   },
 ];
 
@@ -30,7 +30,7 @@ const OutcomeSection = () => {
             The Outcome
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl leading-tight">
-            What a Predictable System Produces
+            What Structured Acquisition Produces
           </h2>
         </div>
 

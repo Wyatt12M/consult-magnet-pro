@@ -5,19 +5,19 @@ const steps = [
     icon: Search,
     step: "01",
     title: "Strategic Patient Targeting",
-    description: "We position your clinic in front of men actively searching for TRT and medical weight loss services at the moment of intent.",
+    description: "We capture active buyers searching for TRT and medical weight loss services.",
   },
   {
     icon: Filter,
     step: "02",
-    title: "Qualification & Filtering",
-    description: "Prospective patients complete structured intake forms designed to eliminate low-quality inquiries and protect your team's time.",
+    title: "Structured Qualification",
+    description: "Prospective patients complete economic and clinical filters before entering your pipeline.",
   },
   {
     icon: CalendarPlus,
     step: "03",
-    title: "Consultation Flow Management",
-    description: "Qualified requests are delivered directly into your booking pipeline, creating consistent consult volume your team can manage.",
+    title: "Consultation Flow Control",
+    description: "Volume is managed to maintain quality, show rates, and conversion efficiency.",
   },
 ];
 
@@ -30,7 +30,7 @@ const HowItWorksSection = () => {
             Our Framework
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl text-foreground leading-tight">
-            Our Consultation Acquisition Framework
+            The Northarion Consultation Framework
           </h2>
         </div>
 
