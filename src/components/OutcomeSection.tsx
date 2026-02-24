@@ -4,17 +4,20 @@ const outcomes = [
   {
     icon: TrendingUp,
     metric: "20–40",
-    label: "New consult requests per month",
+    label: "Qualified Consult Requests Per Month",
+    description: "Not general inquiries — structured consultation intent.",
   },
   {
     icon: CalendarCheck,
     metric: "Fuller",
-    label: "Schedules with qualified patients",
+    label: "Schedules with Pre-Qualified Patients",
+    description: "Your team speaks only with serious candidates.",
   },
   {
     icon: Target,
     metric: "Predictable",
-    label: "Growth you can plan around",
+    label: "Revenue You Can Forecast and Scale",
+    description: "Growth that supports hiring, expansion, and long-term planning.",
   },
 ];
 
@@ -27,7 +30,7 @@ const OutcomeSection = () => {
             The Outcome
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl leading-tight">
-            A Clinic That Runs on Systems, Not Hope
+            What a Predictable System Produces
           </h2>
         </div>
 
@@ -40,8 +43,11 @@ const OutcomeSection = () => {
               <p className="font-display font-800 text-3xl md:text-4xl mb-2">
                 {item.metric}
               </p>
-              <p className="text-primary-foreground/70 text-sm">
+              <p className="text-primary-foreground/90 font-display font-600 text-sm mb-1">
                 {item.label}
+              </p>
+              <p className="text-primary-foreground/60 text-sm">
+                {item.description}
               </p>
             </div>
           ))}
