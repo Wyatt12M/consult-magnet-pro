@@ -27,11 +27,11 @@ const WhyUsSection = () => {
             Selective Partnerships Only
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl text-foreground leading-tight">
-            We do not work across industries.
+            We do not operate across industries.
           </h2>
         </div>
         <p className="text-center text-muted-foreground text-base mb-14 max-w-lg mx-auto">
-          We do not manage general marketing campaigns. We partner exclusively with independent men's health clinics.
+          We build structured acquisition systems exclusively for independent men's health clinics.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
