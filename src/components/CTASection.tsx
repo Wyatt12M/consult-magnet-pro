@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { ArrowRight, CheckCircle } from "lucide-react";
 
 const sessionPoints = [
@@ -7,6 +8,32 @@ const sessionPoints = [
 ];
 
 const CTASection = () => {
+  const calendlyRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Wait for the Calendly script to load, then init the widget
+    const initCalendly = () => {
+      if ((window as any).Calendly && calendlyRef.current) {
+        (window as any).Calendly.initInlineWidget({
+          url: "https://calendly.com/wyatt-northarispartners/30min",
+          parentElement: calendlyRef.current,
+        });
+      }
+    };
+
+    if ((window as any).Calendly) {
+      initCalendly();
+    } else {
+      // Script not loaded yet, wait for it
+      const interval = setInterval(() => {
+        if ((window as any).Calendly) {
+          clearInterval(interval);
+          initCalendly();
+        }
+      }, 200);
+      return () => clearInterval(interval);
+    }
+  }, []);
   return (
     <section id="book" className="py-20 md:py-28 bg-primary">
       <div className="container mx-auto px-4 md:px-8">
@@ -44,8 +71,7 @@ const CTASection = () => {
           {/* Calendly inline widget */}
           <div className="mt-8 mx-auto max-w-2xl rounded-xl overflow-hidden">
             <div
-              className="calendly-inline-widget"
-              data-url="https://calendly.com/wyatt-northarispartners/30min"
+              ref={calendlyRef}
               style={{ minWidth: "320px", height: "700px" }}
             />
           </div>
