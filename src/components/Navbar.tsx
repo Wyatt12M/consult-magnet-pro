@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logoIcon from "@/assets/logo-icon.png";
 
 const CTA_URL = "#book";
 
@@ -11,7 +11,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 md:px-8">
         <a href="/" className="flex items-center gap-2">
-          <img src={logo} alt="Northarion Partners" className="h-10 w-auto mix-blend-multiply" />
+          <img src={logoIcon} alt="Northarion Partners" className="h-9 w-9 object-contain mix-blend-multiply" />
+          <span className="font-display font-800 text-lg tracking-tight text-primary">Northarion Partners</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
