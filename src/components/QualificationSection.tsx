@@ -28,7 +28,7 @@ const QualificationSection = () => {
                 key={i}
                 className="flex items-start gap-4 bg-card rounded-xl p-5 border border-border"
               >
-                <div className="w-8 h-8 rounded-lg bg-emerald-light flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-8 h-8 rounded-lg bg-steel-light flex items-center justify-center shrink-0 mt-0.5">
                   <CheckCircle className="text-accent" size={18} />
                 </div>
                 <p className="text-foreground font-medium text-sm leading-relaxed">
