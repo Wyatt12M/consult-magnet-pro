@@ -61,7 +61,11 @@ const CTASection = () => {
           </p>
 
           <a
-            href="#"
+            href="#calendly-widget"
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById("calendly-widget")?.scrollIntoView({ behavior: "smooth" });
+            }}
             className="inline-flex items-center gap-2 rounded-lg bg-accent text-accent-foreground px-8 py-4 text-base font-semibold transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/25 mb-8"
           >
             Apply for a Private Growth Consultation
@@ -69,7 +73,7 @@ const CTASection = () => {
           </a>
 
           {/* Calendly inline widget */}
-          <div className="mt-8 mx-auto max-w-2xl rounded-xl overflow-hidden">
+          <div id="calendly-widget" className="mt-8 mx-auto max-w-2xl rounded-xl overflow-hidden">
             <div
               ref={calendlyRef}
               style={{ minWidth: "320px", height: "700px" }}
