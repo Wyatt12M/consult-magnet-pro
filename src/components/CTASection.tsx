@@ -41,14 +41,13 @@ const CTASection = () => {
             <ArrowRight size={18} />
           </a>
 
-          {/* Calendly placeholder */}
-          <div className="mt-8 mx-auto max-w-md rounded-xl border border-primary-foreground/10 bg-primary-foreground/5 p-10 text-center">
-            <p className="text-primary-foreground/50 text-sm">
-              Calendly embed will appear here
-            </p>
-            <p className="text-primary-foreground/30 text-xs mt-1">
-              Replace this with your Calendly inline widget
-            </p>
+          {/* Calendly inline widget */}
+          <div className="mt-8 mx-auto max-w-2xl rounded-xl overflow-hidden">
+            <div
+              className="calendly-inline-widget"
+              data-url="https://calendly.com/wyatt-northarispartners/30min"
+              style={{ minWidth: "320px", height: "700px" }}
+            />
           </div>
         </div>
       </div>
