@@ -11,7 +11,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-sm">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 md:px-8">
         <a href="/" className="flex items-center gap-2.5">
-          <img src={logoIcon} alt="Northarion Partners" className="h-10 w-10 object-contain" />
+          <div className="h-8 w-8 overflow-hidden flex-shrink-0">
+            <img src={logoIcon} alt="Northarion Partners" className="w-full object-contain object-top" style={{ height: '160%' }} />
+          </div>
           <span className="font-display font-800 text-lg tracking-tight text-primary leading-none">Northarion Partners</span>
         </a>
 
