@@ -35,7 +35,7 @@ const AuthoritySection = () => {
                 key={i}
                 className="flex items-center gap-4 bg-card rounded-xl p-5 border border-border"
               >
-                <div className="w-10 h-10 rounded-lg bg-emerald-light flex items-center justify-center shrink-0">
+                <div className="w-10 h-10 rounded-lg bg-steel-light flex items-center justify-center shrink-0">
                   <item.icon className="text-accent" size={20} />
                 </div>
                 <p className="text-foreground font-medium text-sm">{item.text}</p>

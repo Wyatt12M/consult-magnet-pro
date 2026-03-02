@@ -41,7 +41,7 @@ const HowItWorksSection = () => {
                 {item.step}
               </span>
               <div className="pt-12">
-                <div className="w-12 h-12 rounded-lg bg-emerald-light flex items-center justify-center mb-4">
+                <div className="w-12 h-12 rounded-lg bg-steel-light flex items-center justify-center mb-4">
                   <item.icon className="text-accent" size={22} />
                 </div>
                 <h3 className="font-display font-600 text-lg text-foreground mb-2">
