@@ -12,7 +12,7 @@ const HeroSection = () => {
           className="w-full h-full object-cover"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-navy-dark/95 via-navy/90 to-navy/70" />
+        <div className="absolute inset-0 bg-navy-dark/95" />
       </div>
 
       <div className="container relative z-10 mx-auto px-4 md:px-8 py-20 md:py-32">

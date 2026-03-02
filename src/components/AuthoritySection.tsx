@@ -9,7 +9,7 @@ const points = [
 
 const AuthoritySection = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section className="py-20 md:py-28 bg-card">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto">
           <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3">
