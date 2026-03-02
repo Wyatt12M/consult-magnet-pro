@@ -21,7 +21,7 @@ const problems = [
 
 const ProblemSection = () => {
   return (
-    <section id="problem" className="py-20 md:py-28 bg-warm-gray">
+    <section id="problem" className="py-20 md:py-28 bg-muted">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto">
           <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3">
