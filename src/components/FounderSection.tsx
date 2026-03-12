@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import founderHeadshot from "@/assets/founder-headshot.png";
 
 const FounderSection = () => {
   return (
@@ -6,10 +6,10 @@ const FounderSection = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-[280px_1fr] gap-10 items-center">
-            {/* Headshot placeholder */}
+            {/* Headshot */}
             <div className="flex justify-center md:justify-start">
-              <div className="w-56 h-56 rounded-2xl bg-muted border border-border flex items-center justify-center overflow-hidden">
-                <User className="text-muted-foreground" size={64} />
+              <div className="w-56 h-56 rounded-2xl border border-border overflow-hidden">
+                <img src={founderHeadshot} alt="Founder headshot" className="w-full h-full object-cover object-top" />
               </div>
             </div>
 
