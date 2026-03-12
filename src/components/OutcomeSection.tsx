@@ -30,7 +30,7 @@ const OutcomeSection = () => {
             The Outcome
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl leading-tight">
-            What Structured Acquisition Produces
+            Predictable Pipeline, Measurable Returns
           </h2>
         </div>
 

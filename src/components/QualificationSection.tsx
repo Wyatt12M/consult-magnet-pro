@@ -16,7 +16,7 @@ const QualificationSection = () => {
             Who We Work With
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl text-foreground leading-tight mb-6">
-            Who We Work With
+            Independent, Cash-Pay Clinics Ready to Scale
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-10">
             Northarion Partners works exclusively with independent, cash-pay men's health clinics that:
