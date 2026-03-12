@@ -4,6 +4,7 @@ import QualificationSection from "@/components/QualificationSection";
 import AuthoritySection from "@/components/AuthoritySection";
 import ProblemSection from "@/components/ProblemSection";
 import OutcomeSection from "@/components/OutcomeSection";
+import ResultsSection from "@/components/ResultsSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import WhyUsSection from "@/components/WhyUsSection";
 import CTASection from "@/components/CTASection";
@@ -18,6 +19,7 @@ const Index = () => {
       <AuthoritySection />
       <ProblemSection />
       <OutcomeSection />
+      <ResultsSection />
       <HowItWorksSection />
       <WhyUsSection />
       <CTASection />

@@ -30,7 +30,7 @@ const HowItWorksSection = () => {
             Our Framework
           </p>
           <h2 className="font-display font-700 text-3xl md:text-4xl text-foreground leading-tight">
-            The Northarion Consultation Framework
+            From Search Intent to Scheduled Consultation
           </h2>
         </div>
 
