@@ -35,7 +35,7 @@ const FounderSection = () => {
               </p>
               <div className="border-l-4 border-accent pl-5">
                 <p className="text-foreground font-display font-600 text-sm italic">
-                  "We don't scale by adding clients — we scale by deepening results for the ones we have."
+                  "If your consultation calendar isn't as full or as predictable as your clinical capacity deserves, that's the problem Northarion was built to solve."
                 </p>
               </div>
             </div>
