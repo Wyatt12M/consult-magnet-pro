@@ -22,10 +22,16 @@ const FounderSection = () => {
                 Meet the Founder
               </h2>
               <p className="text-muted-foreground text-base leading-relaxed mb-4">
-                Wyatt built Northarion Partners after spending years managing paid acquisition for healthcare and direct-response brands. Having seen how most agencies failed clinics with generic playbooks, he set out to build something different — a firm focused exclusively on men's health, with systems designed around consultation economics.
+                Wyatt Murdock founded Northarion Partners with one focus: helping independent men's health clinics build predictable consultation volume for TRT and medical weight loss programs.
+              </p>
+              <p className="text-muted-foreground text-base leading-relaxed mb-4">
+                Most agencies sell marketing. Northarion sells a system — built around your patient economics, your clinical capacity, and your recurring revenue goals.
+              </p>
+              <p className="text-muted-foreground text-base leading-relaxed mb-4">
+                Every client engagement is personally overseen. No account managers. No handoffs. No generic playbooks.
               </p>
               <p className="text-muted-foreground text-base leading-relaxed mb-6">
-                Every engagement is personally overseen, and every system is built to match your clinic's capacity, margins, and growth timeline.
+                If your consultation calendar isn't as full or as predictable as your clinical capacity deserves, that's the problem Northarion was built to solve.
               </p>
               <div className="border-l-4 border-accent pl-5">
                 <p className="text-foreground font-display font-600 text-sm italic">
