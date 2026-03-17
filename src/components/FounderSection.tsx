@@ -22,7 +22,7 @@ const FounderSection = () => {
                 Meet the Founder
               </h2>
               <p className="text-muted-foreground text-base leading-relaxed mb-4">
-                [Your Name] built Northarion Partners after spending years managing paid acquisition for healthcare and direct-response brands. Having seen how most agencies failed clinics with generic playbooks, [he/she] set out to build something different — a firm focused exclusively on men's health, with systems designed around consultation economics.
+                Wyatt built Northarion Partners after spending years managing paid acquisition for healthcare and direct-response brands. Having seen how most agencies failed clinics with generic playbooks, he set out to build something different — a firm focused exclusively on men's health, with systems designed around consultation economics.
               </p>
               <p className="text-muted-foreground text-base leading-relaxed mb-6">
                 Every engagement is personally overseen, and every system is built to match your clinic's capacity, margins, and growth timeline.
