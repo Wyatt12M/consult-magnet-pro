@@ -23,7 +23,7 @@ const CTASection = () => {
     setSubmitted(true);
     // Open Calendly in new tab after short delay
     setTimeout(() => {
-      window.open("https://calendly.com/wyatt-northarispartners/30min", "_blank");
+      window.open("https://calendly.com/wyatt-northarionpartners/30min", "_blank");
     }, 1500);
   };
 
