@@ -33,11 +33,6 @@ const FounderSection = () => {
               <p className="text-muted-foreground text-base leading-relaxed mb-6">
                 If your consultation calendar isn't as full or as predictable as your clinical capacity deserves, that's the problem Northarion was built to solve.
               </p>
-              <div className="border-l-4 border-accent pl-5">
-                <p className="text-foreground font-display font-600 text-sm italic">
-                  "If your consultation calendar isn't as full or as predictable as your clinical capacity deserves, that's the problem Northarion was built to solve."
-                </p>
-              </div>
             </div>
           </div>
         </div>
