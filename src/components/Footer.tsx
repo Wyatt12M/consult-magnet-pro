@@ -13,6 +13,10 @@ const Footer = () => {
             Privacy Policy
           </a>
           <span className="text-primary-foreground/20">|</span>
+          <a href="/terms" className="text-primary-foreground/40 text-xs hover:text-primary-foreground/70 transition-colors">
+            Terms &amp; Conditions
+          </a>
+          <span className="text-primary-foreground/20">|</span>
           <p className="text-primary-foreground/40 text-xs">
             © {new Date().getFullYear()} Northarion Partners. All rights reserved.
           </p>
