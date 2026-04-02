@@ -7,102 +7,123 @@ const Privacy = () => {
       <Navbar />
       <section className="pt-28 pb-20 bg-background">
         <div className="container mx-auto px-4 md:px-8 max-w-3xl">
-          <h1 className="font-display font-800 text-3xl md:text-4xl text-foreground mb-8">
+          <h1 className="font-display font-800 text-3xl md:text-4xl text-foreground mb-2">
             Privacy Policy
           </h1>
-          <p className="text-muted-foreground text-sm mb-6">
-            Last updated: {new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
-          </p>
+          <p className="font-display font-600 text-lg text-muted-foreground mb-1">Northarion Partners</p>
+          <p className="text-muted-foreground text-sm mb-10">Last updated: April 2, 2026</p>
 
           <div className="space-y-8 text-foreground/90 text-[15px] leading-relaxed">
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">1. Introduction</h2>
+              <h2 className="font-display font-700 text-lg mb-3">Overview</h2>
               <p>
-                Northarion Partners ("we," "us," or "our") respects your privacy and is committed to
-                protecting your personal information. This Privacy Policy explains how we collect, use,
-                disclose, and safeguard your information when you visit our website or engage our services.
+                Northarion Partners ("we," "us," or "our") operates northarionpartners.com. This Privacy Policy explains how we collect, use, and protect information when you visit our website or inquire about our services.
               </p>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">2. Information We Collect</h2>
-              <p className="mb-3">We may collect the following types of information:</p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Personal Information:</strong> Name, email address, phone number, clinic name, and other details you voluntarily provide through our intake form or consultations.</li>
-                <li><strong>Usage Data:</strong> IP address, browser type, pages visited, time spent on pages, and other analytical data collected automatically.</li>
-                <li><strong>Cookies & Tracking:</strong> We may use cookies and similar technologies to enhance your experience and gather usage information.</li>
+              <h2 className="font-display font-700 text-lg mb-3">What Information We Collect</h2>
+              <p className="mb-2 font-medium">Information you provide directly:</p>
+              <ul className="list-disc pl-6 space-y-1 mb-4">
+                <li>Your clinic or company name</li>
+                <li>Your phone number</li>
+                <li>Any additional information you include when requesting a consultation</li>
+              </ul>
+              <p className="mb-2 font-medium">Information collected automatically:</p>
+              <ul className="list-disc pl-6 space-y-1">
+                <li>IP address and general location</li>
+                <li>Browser type and device information</li>
+                <li>Pages visited and time spent on the site</li>
               </ul>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">3. How We Use Your Information</h2>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>To respond to your inquiries and schedule consultations</li>
-                <li>To deliver and improve our services</li>
-                <li>To send relevant communications about our offerings</li>
-                <li>To analyze website usage and optimize performance</li>
-                <li>To comply with legal obligations</li>
+              <h2 className="font-display font-700 text-lg mb-3">How We Use Your Information</h2>
+              <p className="mb-2">We use the information we collect to:</p>
+              <ul className="list-disc pl-6 space-y-1 mb-4">
+                <li>Respond to inquiries about our services</li>
+                <li>Schedule and conduct consultations</li>
+                <li>Follow up on consultation requests you initiated</li>
+                <li>Improve our website experience</li>
+                <li>Comply with applicable legal obligations</li>
               </ul>
+              <p>We do not sell your information. We do not share your information with third parties for their own marketing purposes.</p>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">4. Information Sharing</h2>
+              <h2 className="font-display font-700 text-lg mb-3">Cookies</h2>
               <p>
-                We do not sell, trade, or rent your personal information to third parties. We may share
-                your information with trusted service providers who assist us in operating our website
-                and conducting our business, provided they agree to keep your information confidential.
+                Our website may use basic cookies to support site functionality and understand general visitor behavior. You can control cookie preferences through your browser settings at any time. Disabling cookies may affect some functionality of the site.
               </p>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">5. Third-Party Services</h2>
+              <h2 className="font-display font-700 text-lg mb-3">Third Party Services</h2>
               <p>
-                Our website may contain links to third-party services such as Calendly for scheduling.
-                These services have their own privacy policies, and we encourage you to review them.
-                We are not responsible for the privacy practices of third-party services.
+                We may use third party tools to support our operations including appointment scheduling and electronic document signing. Each third party service operates under its own privacy policy.
               </p>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">6. Data Security</h2>
+              <h2 className="font-display font-700 text-lg mb-3">Data Retention</h2>
               <p>
-                We implement reasonable security measures to protect your personal information.
-                However, no method of transmission over the Internet or electronic storage is 100%
-                secure, and we cannot guarantee absolute security.
+                We retain your information for as long as necessary to provide our services and fulfill the purposes described in this policy. To request deletion of your information contact us at the address below.
               </p>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">7. Your Rights</h2>
-              <p>You may have the right to:</p>
-              <ul className="list-disc pl-6 space-y-2 mt-2">
-                <li>Access the personal information we hold about you</li>
+              <h2 className="font-display font-700 text-lg mb-3">Your Rights</h2>
+              <p className="mb-2">Depending on your location you may have the right to:</p>
+              <ul className="list-disc pl-6 space-y-1 mb-3">
+                <li>Access the information we hold about you</li>
                 <li>Request correction of inaccurate information</li>
-                <li>Request deletion of your personal information</li>
-                <li>Opt out of marketing communications</li>
+                <li>Request deletion of your information</li>
+                <li>Opt out of follow up communications at any time</li>
               </ul>
+              <p>To exercise any of these rights contact us directly.</p>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">8. Changes to This Policy</h2>
+              <h2 className="font-display font-700 text-lg mb-3">Marketing Communications</h2>
               <p>
-                We may update this Privacy Policy from time to time. Any changes will be posted on this
-                page with an updated revision date. We encourage you to review this policy periodically.
+                If you submit a contact form or book a consultation you may receive follow up communications related to your inquiry. You can opt out at any time by replying to any message with "unsubscribe" or contacting us directly.
               </p>
             </div>
 
             <div>
-              <h2 className="font-display font-700 text-lg mb-3">9. Contact Us</h2>
+              <h2 className="font-display font-700 text-lg mb-3">Children's Privacy</h2>
               <p>
-                If you have any questions about this Privacy Policy or our data practices, please
-                contact us at{" "}
+                Our services are directed exclusively at business owners and medical professionals. We do not knowingly collect information from anyone under the age of 18.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="font-display font-700 text-lg mb-3">Changes to This Policy</h2>
+              <p>
+                We may update this policy periodically. The date at the top of this page reflects the most recent revision. Continued use of the site after changes constitutes acceptance of the updated policy.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="font-display font-700 text-lg mb-3">Contact</h2>
+              <p>Northarion Partners</p>
+              <p>
+                Email:{" "}
                 <a
                   href="mailto:wyatt@northarionpartners.com"
                   className="text-accent underline hover:text-accent/80 transition-colors"
                 >
                   wyatt@northarionpartners.com
                 </a>
-                .
+              </p>
+              <p>
+                Website:{" "}
+                <a
+                  href="https://northarionpartners.com"
+                  className="text-accent underline hover:text-accent/80 transition-colors"
+                >
+                  northarionpartners.com
+                </a>
               </p>
             </div>
           </div>
