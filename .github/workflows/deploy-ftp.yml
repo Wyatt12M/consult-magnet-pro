@@ -1,0 +1,39 @@
+name: Deploy (FTP)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-ftp-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install and build
+        run: |
+          npm ci
+          npm run build
+
+      # SamKirkland/FTP-Deploy-Action: local-dir and server-dir must end with /
+      - name: Upload to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          local-dir: ./dist/
+          # Plain FTP: set to `ftp`. SiteGround / many hosts: `ftps` or `ftps-legacy`.
+          protocol: ftps
+          security: loose
